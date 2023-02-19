@@ -1,1 +1,0 @@
-# korcosin.github.io
