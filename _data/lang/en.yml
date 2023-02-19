@@ -132,8 +132,8 @@ post-list:
 home:
   title: Welcome
   button_name: Home
-  new_posts_title: New Articles
-  new_posts_show_more_button: View More ...
+  new_posts_title: 새로 등록 된 글
+  new_posts_show_more_button: 더보기..
 
 # for archives layout
 archives:
@@ -167,9 +167,22 @@ privacy-policy:
 
 # constants to be replaced for
 constants:
-  greetings: Hello
-  welcome: Welcome
+  greetings: 안녕하세요.
+  welcome: 환영합니다.
   sample: Sample
+  introduce: >
+    <b>[한 줄 소개]</b><br/>
+    한국의 코딩신(@korcosin)을 꿈꾸는 Dexter.Jung 입니다.<br/>
+    <br/>
+    <b>[개발 경력]</b><br/>
+    2018. 02 ~ ing : 잡플래닛(브레인커머스) / 중간에 잠깐 이마트DT..(2021. 06 ~ 2021. 11)<br/>
+    2016. 07 ~ 2018. 01 : 중앙일보<br/>
+    2015. 05 ~ 2016. 07 : 에듀윌<br/>
+    2011. 11 ~ 2015. 04 : 와이즈넛 검색엔진연구소<br/>
+    2011. 01 ~ 2011. 10 : LG전자 R&D연구소<br/>
+    <br/>
+    <b>[블로그 소개]</b><br/>
+    이곳은 개발하고, 생각하고, 인생을 즐기며 기록하는 github 블로그입니다.<br/>
 
 # for contact form
 contact_form:

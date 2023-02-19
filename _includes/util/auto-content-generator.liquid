@@ -20,10 +20,6 @@
   replace: site.data.conf.main.brand_replace, "[Mr. Green](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)"
 %}
 
-{%- for index in (1..5) %}
-  {% assign const_sample = const_sample | append: site.data.lang[lng].constants.sample | append: " " %}
-{% endfor -%}
-
 {%- if site.data.owner[lng].auto_content.text -%}
   {%- capture website_info_text -%}
   {{ website_info_text }} [{{site.data.owner[lng].auto_content.more_info}}]({{ site.baseurl }}{{ out_lng_page.url }})
@@ -41,7 +37,7 @@
 {%- capture website_info_text_first -%}
 {{ website_greeting_text }}
 
-{{ site.data.owner[lng].auto_content.auto_generated_text | default: const_sample }}
+{{ site.data.owner[lng].auto_content.auto_generated_text | default: site.data.lang[lng].constants.introduce }}
 {%- endcapture -%}
 
 {%- capture website_info_text_second -%}
